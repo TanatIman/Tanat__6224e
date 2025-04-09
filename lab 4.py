@@ -1,6 +1,6 @@
 import random
-n=7
+n=int(input())
 x=[]
 for i in range (n):
-    x.append(random.randint(0,87))
+    x.append(random.randint(10,18))
 print (x)
